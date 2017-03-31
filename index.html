@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script type="text/javascript" src="js/require.js"></script>
+		<script type="text/javascript">
+			//          require(["js/a"],function(){
+			//          	alert("load finished!");
+			//          });
+
+			/*加载网上的文件*/
+//			require.config({
+//				paths: {
+//					"jquery": ["http://libs.baidu.com/jquery/2.0.3/jquery"]
+//				}
+//			})
+//			require(["jquery", "js/a"], function($) {
+//				$(function() {
+//					alert("load finished");
+//				})
+//			})
+
+//			require.config({
+//				paths: {
+//					"jquery": ["http://libs.baidu.com/jquery/2.0.3/jquery"]
+//				}
+//			})
+//			
+//			require(["jquery","underscore"],function($,_){
+//				$(function(){
+//					_.each([1,2,3],alert);
+//				})
+//			})
+			
+//			全局配置
+//			require.config({
+//				paths:{
+//					"jQuery":["http://libs.baidu.com/jquery/2.0.3/jquery","js/jquery"],
+//					"a":"js/a"
+//				}
+//			})
+
+			/*第三方模块*/
+//			require.config({
+//				shim:{
+//					"underscore":{
+//						exports:"_";
+//					}
+//				}
+//			})
+//			
+//			require(["underscore"],function(_){
+//				_.each([1,2,3],alert);
+//			})
+		</script>
+		<!--<script data-main = "js/main" src="js/require.js"></script>-->
+	</head>
+
+	<body>
+		<span>body</span>
+	</body>
+
+</html>
